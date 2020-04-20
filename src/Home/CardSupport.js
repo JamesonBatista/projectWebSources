@@ -219,8 +219,8 @@ export default function CardSupport(props) {
             color="textSecondary"
           >
             <ul className="informationUser">
-              <li className="informationText">CONTATO: {phone}</li>
-              <li className="informationText">ENDEREÇO: {adress}</li>
+              <li className="informationText">CONTATO: {phone} </li>
+              <li className="informationText">ENDEREÇO: {adress} </li>
               <li className="informationText">
                 COMPLEMENTO: <i> {complement} </i>
               </li>
