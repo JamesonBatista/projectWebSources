@@ -222,7 +222,7 @@ export default function CardSupport(props) {
               <li className="informationText">CONTATO: {phone}</li>
               <li className="informationText">ENDEREÇO: {adress}</li>
               <li className="informationText">
-                COMPLEMENTO: <i> {complement}</i>
+                COMPLEMENTO: <i> {complement} </i>
               </li>
             </ul>
           </Typography>
