@@ -1,0 +1,34 @@
+.signIn {
+  border-radius: 16px;
+  background: linear-gradient(145deg, #4da7db4c, #5bc6ff41);
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+ul {
+  list-style: none;
+}
+.listUser {
+  display: flex;
+  width: 100%;
+}
+.iconTrash {
+  left: 92%;
+  margin-top: -14px;
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 92px;
+  background: linear-gradient(145deg, #4da7db, #5bc6ff);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.listBackground {
+  background: red;
+}
+.informationUser {
+  font-size: 12px;
+}
+.informationText {
+  font-size: 12px;
+}

@@ -1,0 +1,149 @@
+.container {
+  display: flex;
+  margin: 30px;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+.chat {
+  display: block;
+  flex-direction: row;
+  margin-left: 80px;
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  background: #55b9f32b;
+  box-shadow: inset 27px 27px 30px #3a7ea564, inset -27px -27px 30px #70f3ff4f;
+}
+.users {
+  display: flex;
+  margin: 20px;
+  background: linear-gradient(145deg, #4da7db85, #31ffea7e);
+  box-shadow: 7px 7px 9px #02131d, -7px -7px 9px #07171a;
+  border-radius: 5px;
+  height: 85px;
+  margin-top: 5px;
+  padding-top: 5px;
+  margin: 10px;
+  border: 1px solid white;
+  padding-bottom: 3px;
+  align-items: center;
+  cursor: pointer;
+}
+.name {
+  margin: 10px;
+}
+.imgUser {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-left: 10px;
+  border: 2px solid white;
+}
+
+.trashIcon {
+  width: 20px;
+  height: 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  margin-left: 80%;
+  border: 2px solid red;
+  border-radius: 50%;
+  background: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.chatUser {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 600px;
+  border-radius: 10px;
+  margin-left: 20px;
+  justify-content: center;
+  box-shadow: 0 25px 50px -12px rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(129, 171, 222, 1) 0%,
+    rgba(255, 255, 255, 1) 49%,
+    rgba(0, 212, 255, 0.6811099439775911) 100%
+  );
+}
+.textTitle {
+  margin-top: -150px;
+}
+.titleUser {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  width: auto;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.chatOnline {
+  width: 90%;
+  align-self: center;
+  height: 390px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.318);
+  margin-top: 0px;
+  border-radius: 5px;
+  transition: opacity 0.3s;
+}
+.messageUser {
+  margin-right: 30px;
+  text-align: end;
+  margin-top: 10px;
+}
+.messageOperation {
+  text-align: start;
+  margin-left: 30px;
+}
+.inputMessage {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+}
+.inputChange {
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  background: #ccc;
+  font-size: 16px;
+  transition: opacity 0.3s;
+}
+input[type="textx"] {
+  border: 3px solid #555;
+  background-image: url("../assets/send.png");
+  background-position: 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+.form {
+  width: 95%;
+}
+form {
+  border: transparent;
+}
+.textOne {
+  color: #0681ed;
+  margin-bottom: 8px;
+  font-style: italic;
+  display: block;
+  font-size: 15px;
+  margin: 5px;
+}
+.textTwo {
+  color: brown;
+  font-style: italic;
+  display: block;
+  font-size: 15px;
+}

@@ -1,38 +1,80 @@
 .App {
+  flex: 1;
   text-align: center;
+  width: 100vmax;
+  height: 100vmin;
+  background-size: cover;
+  background-position: top;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 10vh;
+  background: rgba(255, 255, 255, 0.27);
 }
-
-.App-link {
-  color: #61dafb;
+.li {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  width: 150%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-right: 100px;
+}
+.icon {
+  margin-left: 10px;
+}
+.register {
+  position: absolute;
+  margin-left: 34%;
+  background: black;
+  border-radius: 10px;
+}
+.login {
+  position: absolute;
+  margin-left: 40%;
+  background: black;
+  border-radius: 10px;
+}
+.buttonExit {
+  position: absolute;
+  margin-left: 45%;
+  background: transparent;
+  margin-top: 0px;
+}
+li {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.operation {
+  position: absolute;
+  margin-left: -40%;
+  margin-top: 10px;
+  background: greenyellow;
+  border-radius: 5px;
+}
+.home {
+  position: absolute;
+  left: 20%;
+  list-style: none;
+}
+.chatline {
+  position: absolute;
+  right: 820px;
+}
+.shop {
+  position: absolute;
+  right: 620px;
+}
+.loginRegister {
+  flex-direction: column;
+  border: "2px solid red";
 }
