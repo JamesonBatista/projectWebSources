@@ -18,7 +18,7 @@
     "jquery": "^3.5.0",
     "jquery-confirm": "^3.3.4",
     "material-ui-confirm": "^2.0.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^9.0.0",
     "nodemailer": "^6.4.6",
     "nodemon": "^2.0.3",
     "react": "^16.13.1",
@@ -32,7 +32,7 @@
     "react-lottie": "^1.2.3",
     "react-pure-loaders": "^3.0.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.7.16"
   },
   "scripts": {
